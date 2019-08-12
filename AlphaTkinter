@@ -1,0 +1,32 @@
+from tkinter import *
+#Make first window or root window, this windows will contain 4 buttons, as of now opening another window.
+from tkinter import Button
+
+root = Tk()
+root.title('Alpha Dokkan LR Tracker & Tool')
+root.geometry('600x400')
+lbl1 = Label(root, text="LR TRACING")
+lbl1.grid(column=1, row=1)
+btn1 = Button(root, text="LR LIST", bg="blue", fg="orange")
+btn1.grid(column=1, row=2)
+lbl2 = Label(root, text='My Progress')
+lbl2.grid(column=2, row=3)
+btn2 = Button(root, text="Medals", bg="green", fg="red")
+btn2.grid(column=2, row=2)
+root.mainloop()
+
+
+#Maybe create a list of all LRs in game, and a visual way to distinguish what you have. 
+
+#Buttons for each type in game Str, Teq, Int, Phy, Agl
+#with colors corrosponding Red, Green, Purple, Orange, Blue
+#buttons show LRs you own, or have the base unit SSR or UR/TUR and Medals needed
+
+#After that is done along with a list of all LRs with images, stats for each LR. 
+#The 20 SA multiplyer
+#maybe choice of putting in your progress on each S.A and Hidden Potential. So you know how to dedicate resources.
+
+#Also a few more LR based stats and images maybe added. 
+#As a second tab, or another window or part (somehow) intergrate a calculator for damage output.
+#Damage calc for your LRs and what they should hit a few of the event bosses for. 
+#This damage calc would be an ideal tool to use next to a team builder.
